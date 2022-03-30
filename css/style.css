@@ -54,11 +54,83 @@ strong{
     font-weight: 0.5px;
     word-spacing: 1.5px;
 }
+h4{
+    color: #555;
+}
 .box3{
 
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
     padding: 10px;
 }
+/*========================== nav_section =======================*/
+#nav_section{
+    display: block;
+    position:sticky !important;
+    position:-webkit-sticky;
+    top:0;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+#nav-container{
+    width: 70%;
+    margin: auto;
+    height: 20px;
+    /* border: 1px solid rebeccapurple; */
+    
+}
+.list-inline{
+    display: inline;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 10px auto 10px auto; */
+   
+}
+.list-inline>li{
+    float: left;
+    width: auto;
+    list-style: outside none none;
+    text-transform: uppercase;
+    
+    /* padding: 1%; */
+}
+.list-inline>li>a{
+    text-decoration: none;
+    color:#55565a;
+    font-size: 14px;
+}
+.dropdown {
+    position: relative;
+    display: flex;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width:100%;
+    margin-top:30px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 0px 0px;
+    z-index: 1 !important;
+}  
+.dropdown:hover .dropdown-content {
+    display:flex;
+    /* display: block; */
+    overflow: visible;
+    z-index: 1;
+    /* position: inherit; */
+    /* margin-top: 10%; */
+}
+.list-style2>li>a{
+    text-decoration: none;
+    color: black;
+}
+#submenu{
+    float: left;
+    padding: 10px;
+}
+/* ======================end========================== */
 .child-box{
     width: 70%;
     margin: auto;
@@ -86,6 +158,15 @@ a{
   .title1{
     font-family: Bell MT;
     font-size: 40px;
+    font-weight: 100;
+    color: #222;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    max-width: none;
+  }
+  .title2{
+    font-family: Bell MT;
+    font-size: 30px;
     font-weight: 100;
     color: #222;
     line-height: 1.2;
@@ -177,7 +258,7 @@ a{
       padding: 0px 40px  2px 40px;
   }
   .addproduct{
-      height: 600px;
+      height: 650px;
       width: 100%;
       background-color: #f8f4f2;
   }
@@ -187,14 +268,169 @@ a{
       padding-top: 70px;
   }
   .addproduct-items{
-      display: flex;
-      justify-content: space-between;
+      display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
       padding: 80px 20px 40px 20px;
+      gap: 20px;
   }
   .addproduct-items > div{
       /* padding-top: 100px; */
-      height: 250px;
+      height: 280px;
       width: 200px;
-      border: 1px solid yellow;
+      /* border: 1px solid yellow; */
+      background-color: white;
       border-radius: 10px;
+      text-align: center;
   }
+  .img{
+      border-radius: 7px;
+      padding: 5px;
+  }
+  .slider2{
+      display: flex;
+      /* flex-direction: row;
+      width: 100%;
+      justify-content: space-evenly; */
+      padding-top: 30px;
+      padding-bottom: 30px;
+      overflow-x: scroll;
+      
+  }
+  .slider2-box{
+    flex: 1;
+    height: 330px;
+    width: 660px;
+    /* padding-left: 10px; */
+    /* margin:auto; */
+    margin-left: 10px;
+    /* padding-right: 10px; */
+    /* border: 1px solid red;
+    border-radius: 8px; */
+  }
+  .slider2-box{
+      display: flex;
+  }
+  .slider2-box> div{
+      /* border: 1px solid yellow; */
+      height: 100%;
+      width: 320px;
+  }
+  .big-box3{
+      height: 600px;
+      width: 100%;
+      background-color: #f8f8f8;
+      margin-top: 20px;
+  }
+  .big-box3-sub{
+      padding: 100px 30px 100px 30px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(1, 400px);
+      gap: 110px;
+  }
+  .big-box3-sub > div{
+      /* border: 1px solid yellow; */
+      text-align: center;
+     
+  }
+  .big-box3-sub > div >img + div{
+    padding: 27px;
+    line-height: 23px;
+  }
+  .scroll-bar2{
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+    overflow-x: scroll;
+  }
+  .scroll-bar2 > div{
+    flex: 1;
+    margin-left: 15px;
+    margin-top: 15px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+      /* height: 250px;
+      width: 300px;
+      border: 0.2px solid red; */
+  }
+  .scroll-bar2 img {
+    width: 250px;
+    height: 260px;
+    border-radius: 5px;
+}
+.big-box4{
+    height: 180px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 40px;
+    background-color: #e1eaf1;
+}
+.big-box4-inner{
+   display: flex;
+   width: 90%;
+   padding-top: 10px;
+   justify-content: space-around;
+   height: 100px;
+   /* border: 1px solid red; */
+   border-radius: 8px;
+   margin: auto;
+   background-color: white;
+}
+.big-box4-inner > div{
+  /* padding: 10px; */
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 30px;
+} 
+.footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 0.2px  solid #acadaf;
+    border-bottom: 0.04px  solid #acadaf;
+}
+.footer > div{
+    height: auto;
+    width: 23%;
+    /* border: 0.5px solid yellow; */
+    padding: 40px 10px 40px 10px;
+}
+.footer :nth-child(4){
+    width: 35%;
+    padding-right: 100px;
+}
+.footer > div ul{
+    line-height: 34px;
+    color: #55565a;
+    text-decoration: none;
+    font-size: 13px;
+    list-style: none;
+}
+.footer > div ul li{
+    text-transform: uppercase;
+    letter-spacing: 0.8px;   
+}
+.social{
+    display: grid;
+    margin-top: 40px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    gap: 60px;
+    /* border: 1px solid rebeccapurple; */
+}
+.social > i{
+    /* margin-top: 30px;
+    margin-right: 40px; */
+    /* margin-left: 30px; */
+    font-size: 20px;
+}
+.cpoyright{
+    display: flex;
+}
+.cpoyright>div{
+    margin-left: 10px;
+    border-right: 2px solid #555;
+    padding-right: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(44, 44, 44);
+}
