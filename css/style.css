@@ -54,14 +54,18 @@ strong{
     font-weight: 0.5px;
     word-spacing: 1.5px;
 }
+
 h4{
     color: #555;
 }
+
+
 .box3{
 
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
     padding: 10px;
 }
+/* <<<<<<< jitendra */
 /*========================== nav_section =======================*/
 #nav_section{
     display: block;
@@ -131,6 +135,8 @@ h4{
     padding: 10px;
 }
 /* ======================end========================== */
+/* ======= */
+/* >>>>>>> master */
 .child-box{
     width: 70%;
     margin: auto;
@@ -164,6 +170,7 @@ a{
     letter-spacing: 1px;
     max-width: none;
   }
+/* <<<<<<< jitendra */
   .title2{
     font-family: Bell MT;
     font-size: 30px;
@@ -173,6 +180,8 @@ a{
     letter-spacing: 1px;
     max-width: none;
   }
+
+/* >>>>>>> master */
   .subtext{
     font-size: 18px;
     font-weight: 400;
@@ -258,7 +267,11 @@ a{
       padding: 0px 40px  2px 40px;
   }
   .addproduct{
+/* <<<<<<< jitendra */
       height: 650px;
+
+      height: 600px;
+/* >>>>>>> master */
       width: 100%;
       background-color: #f8f4f2;
   }
@@ -268,6 +281,7 @@ a{
       padding-top: 70px;
   }
   .addproduct-items{
+/* <<<<<<< jitendra */
       display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: auto;
@@ -434,3 +448,16 @@ a{
     font-weight: 400;
     color: rgb(44, 44, 44);
 }
+
+      display: flex;
+      justify-content: space-between;
+      padding: 80px 20px 40px 20px;
+  }
+  .addproduct-items > div{
+      /* padding-top: 100px; */
+      height: 250px;
+      width: 200px;
+      border: 1px solid yellow;
+      border-radius: 10px;
+  }
+/* >>>>>>> master */

@@ -29,23 +29,32 @@ p {
 }
 #container > div {
   box-sizing: border-box;
+  /* border: 1px solid black; */
 }
 #product_img {
   width: 100%;
-  height: 250px;
+  height: 230px;
 }
 #prod_name,
-#prod_price {
+.prod_price {
   font-size: 18px;
   line-height: 22px;
   font-weight: 500;
   color: rgba(34, 34, 34, 0.87);
   font-family: Arial, sans-serif;
+  /* border: 1px solid black; */
+  margin-top: 20px;
 }
-#prod_price {
+.prod_price {
+  font-size: 17px;
+  text-align: center;
+  font-weight: 400;
+}
+.prod_price2 {
   font-size: 16px;
   text-align: center;
-  font-weight: 200;
+  font-weight: lighter;
+  color: gray;
 }
 #chunk {
   color: #00baf2;
@@ -54,9 +63,8 @@ p {
   font-weight: bold;
 }
 #price_box {
-  display: flex;
-  justify-content: center;
-  margin-top: -30px;
+  text-align: center;
+  margin-top: 40px;
 }
 
 #btn_add {
@@ -65,6 +73,8 @@ p {
   width: 100%;
   font-size: 15px;
   word-spacing: 2px;
+  margin-top: 15px;
+  letter-spacing: 0.15rem;
 }
 #btn_add,
 #product_img,
@@ -91,7 +101,8 @@ p {
   box-sizing: border-box;
   padding-top: 10px;
 }
-span {
+.fa-angle-left,
+.fa-angle-right {
   align-items: center;
   margin-top: 10px;
 }
@@ -107,10 +118,12 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
-    grid-gap: 20px;
+    grid-gap: 15px;
   }
   #container > div {
     box-sizing: border-box;
+    margin-top: 30px;
+   
   }
   #product_img {
     width: 100%;
@@ -122,10 +135,6 @@ body {
   #prod_name {
     font-size: 15px;
   }
-  /* #price_box
-  {
-
-  } */
 
   #s_phrase {
     font-size: 16px;
@@ -144,7 +153,61 @@ body {
     height: 40px;
     align-items: center;
   }
+  #price_box {
+    margin-top: 10px;
+  }
+  #prod_price,
+  .prod_price {
+    display: block;
+    font-size: 14px;
+  }
+  .prod_price2,
+  #chunk {
+    font-size: 13px;
+    width: 100%;
+  }
+  #silder {
+    display: none;
+  }
+  #btn_add {
+    font-size: 12px;
+    padding: 15px 20px;
+  }
 }
 
 @media only screen and (min-width: 421px) and (max-width: 780px) {
+  #s_phrase {
+    width: 80%;
+    line-height: 24px;
+  }
+  #price_box {
+    margin-top: 10px;
+  }
+  #prod_name {
+    font-size: 16px;
+    width: 100%;
+  }
+  .prod_price {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .prod_price2,
+  #chunk {
+    font-size: 16px;
+    width: 100%;
+  }
+  #silder {
+    display: none;
+  }
+  #btn_add {
+    font-size: 12px;
+    padding: 15px 20px;
+  }
+  #newpages {
+    width: 20%;
+    margin: auto;
+    margin-top: 20px;
+    margin-right: 10%;
+  }
 }
