@@ -84,6 +84,8 @@ Linkedin profile: linkedin.com/in/mohammad-ramiz-raja-2822141b0
 
 ## Glimpse and screenshots of our cloned website:
 
+** landing page **
+https://miro.medium.com/max/1400/1*iNP-qidAU8b8v-Jbsq4mVg.png
 
 ## Blog link
 
