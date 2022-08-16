@@ -84,8 +84,21 @@ Linkedin profile: linkedin.com/in/mohammad-ramiz-raja-2822141b0
 
 ## Glimpse and screenshots of our cloned website:
 
-** landing page **
-https://miro.medium.com/max/1400/1*iNP-qidAU8b8v-Jbsq4mVg.png
+**landing page**
+![image](https://user-images.githubusercontent.com/70229744/184881636-5b4f5cc4-9543-4e99-88f8-717581957895.png)
+
+**Best seller**
+![image](https://user-images.githubusercontent.com/70229744/184881913-68ae945a-d566-49ad-b67f-e5671982c427.png)
+
+**Query Page**
+![image](https://user-images.githubusercontent.com/70229744/184882102-9be30dc1-7d19-4779-9d16-c20673caa768.png)
+
+ **Cart Page** <br>
+![image](https://user-images.githubusercontent.com/70229744/184882460-3ab0d258-48e6-4a12-8d1a-619b0152fd88.png)
+
+**Confirmation Page**
+![image](https://user-images.githubusercontent.com/70229744/184882725-03f56a1e-9d91-463d-905d-4b7723b6fa9b.png)
+
 
 ## Blog link
 
