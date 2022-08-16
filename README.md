@@ -1,4 +1,4 @@
-# Project_unit_2
+# Rodan Fields Clone
 
 
 Collaborative Project At Masai School “ Rodan + Fields Clone ” .
@@ -6,34 +6,26 @@ Collaborative Project At Masai School “ Rodan + Fields Clone ” .
 Before going to start with our project I would like to thank Masai school for that Wonderful opportunity providing to us.
 We have tried our level best to make use of our skill and knowledge for journey At Masai School to come up with our first project.
 
+## Tech Stacks
 
-## Acknowledgements
-
- Before going to start with our project I would like to thank Masai school for that Wonderful opportunity providing to us.
-We have tried our level best to make use of our skill and knowledge for journey At Masai School to come up with our first project.
-
-## Appendix
-
-
-Tech Stacks …
-HTML : 80.70%
-CSS : 12.8%
-JavaScript : 7%
+- HTML
+- CSS 
+- JavaScript
 
 
 ## Authors
 
-Team Member …
-1.Jitendra Sharma
-2.mohd faizan
-3.Swapnil Vijay Ramteke
-4.Md Ramiz raja
-5.Dipak Shantaram Shinde
+Team Member
+- Jitendra Sharma
+- mohd faizan
+- Swapnil Vijay Ramteke
+- Md Ramiz raja
+- Dipak Shantaram Shinde
 
 
 ## Contributing
 
-Dipak Shinde
+ - Dipak Shinde
 
 https://www.linkedin.com/in/dipak-shinde-2857461b6/
 
@@ -47,7 +39,7 @@ https://www.linkedin.com/in/dipak-shinde-2857461b6/
 
 5.Make a consultant page where you can check any consultant via name .
 
-Jitendra sharma
+- Jitendra sharma
 LinkedIn profile:- www.linkedin.com/in/jitendrasharma8853
 
 1.Worked on the landing page of the website in landing I create a header, and navigation bar with a dropdown page, banner section, scrolling slide section of images, and footer with quick links.
@@ -58,7 +50,7 @@ LinkedIn profile:- www.linkedin.com/in/jitendrasharma8853
 
 4.I have used HTML, and CSS to create an attractive webpage with JS for all functionality.
 
-Swapnil Ramteke
+- Swapnil Ramteke
 
 Linkedin profile :- linkedin.com/in/swapnil-ramteke-12766a230
 
@@ -70,7 +62,7 @@ Linkedin profile :- linkedin.com/in/swapnil-ramteke-12766a230
 
 4.I used to gives information about different used things which going throw web clone.
 
-Mohd Faizan
+- Mohd Faizan
 
 Linkedin profile :https://www.linkedin.com/in/mohd-faizan-647427120/
 1.I worked on the Best seller and Perks Program pages tried to clone it exactly like the original website’s page .
@@ -79,7 +71,7 @@ Linkedin profile :https://www.linkedin.com/in/mohd-faizan-647427120/
 
 3.much other syncing functionality for instant sign in and sign up in this project was part of my job.
 
-Md Ramiz Raja
+- Md Ramiz Raja
 
 Linkedin profile: linkedin.com/in/mohammad-ramiz-raja-2822141b0
 
@@ -90,7 +82,7 @@ Linkedin profile: linkedin.com/in/mohammad-ramiz-raja-2822141b0
 3.make Order page in which user get final information after ,user purchased product.
 
 
-
+## Glimpse and screenshots of our cloned website:
 
 
 ## Blog link
