@@ -39,7 +39,7 @@
   console.log(cartData);
   
   var total = cartData.reduce(function (sum, elem, index, arr) {
-   
+    
    // console.log(elem.price.slice(1));
     return sum+=Number(elem.price.slice(1));
    // sum = sum + parseInt(elem.price);
@@ -65,7 +65,7 @@
     var price = document.createElement("p");
     price.innerText = elem.price;
     price.setAttribute("id", "cartprice");
-    // var btn = document.createElement("button");
+    
     // btn.innerText = "Remove";
     // btn.addEventListener("click", function () {
     //   removeItem(elem, index);
