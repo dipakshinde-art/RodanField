@@ -39,8 +39,6 @@
   console.log(cartData);
   
   var total = cartData.reduce(function (sum, elem, index, arr) {
-    
- 
     return sum+=Number(elem.price.slice(1));
 
   },0)
